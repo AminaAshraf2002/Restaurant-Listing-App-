@@ -1,0 +1,57 @@
+.restaurant-name{
+    font-family: 'Playfair Display';
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 6px;
+  
+}
+    
+  
+.navContainer
+{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+
+.txtBox{
+    width:400px; 
+    height:40px;
+    color: black;
+    font-family:'papyrus';
+   
+    
+}
+
+
+@media (max-width:1200px) {
+
+.navContainer{
+    gap: 8em;
+}
+
+
+.txtBox{
+    width:600px ;
+}
+}
+
+@media (max-width:1050px){
+    .navContainer{
+        gap: 6em;
+    }
+    
+    
+    .txtBox{
+        width:550px ;
+    }
+    }
+
+    @media (max-width:992px) {
+        .navContainer{
+            gap: 0;
+        }
+           
+    }
